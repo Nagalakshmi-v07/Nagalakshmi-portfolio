@@ -151,5 +151,38 @@ h2 {
   section {
     padding: 40px 20px;
   }
+  .certificate{
+    background-color: linear-gradient(135deg,#ff7eb3);
+    color:white;
+    padding:15px 20px;
+    margin: 15px auto;
+    width:50%;
+    border-radius: 10px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .certificate:hover{
+    transform: scale(1.05);
+  }
+  @media(max-width: 768px){
+    .certificate{
+      width:85%;
+      min-height: 70px;
+    }
+  }
+  .contact-box a {
+  text-decoration: none;
+  color: #243b55;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s;
+}
 
+.contact-box a:hover {
+  color: #ff758c;
+}
 }
